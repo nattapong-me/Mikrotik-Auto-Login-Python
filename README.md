@@ -1,4 +1,4 @@
-#Mikrotik Auto Login Python 
+# Mikrotik Auto Login Python 
 - No need Selenium (which means no need to update the driver)
 
 Tested on Python 3.8.5
@@ -21,11 +21,11 @@ password = 'password'
 ```
 # Create Task Scheduler for Windows (Optional)
 
-###Compile to .exe file
+## Compile to .exe file
 
 `$ pyinstaller --onefile login.py --windowed`
 
-###Create Task
+### Create Task
 
 ![](images/task-scheduler.png)
 
